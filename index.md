@@ -2,4 +2,5 @@
 
 You'll find information about each project here.
 
+[./proj1/index.md](Project 1: Square World)
 
