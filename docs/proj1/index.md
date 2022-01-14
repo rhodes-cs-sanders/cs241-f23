@@ -44,7 +44,7 @@ The `Actor` class is the superclass for all objects in SquareWorld that live on 
 
 ## Project Part A: SquareBug
 
-Now it's time to write some code! In this part, you will write code for `SquareBug`, which is a custom version of the `Bug` class.  A `SquareBug` draws a square shape using flowers on the screen.  Once the square is drawn, the bug continues to walk around the square forever.  See a demo of how it should act [here](squarebug.mov) for a square of side length 5.
+Now it's time to write some code! In this part, you will write code for `SquareBug`, which is a custom version of the `Bug` class.  A `SquareBug` draws a square shape using flowers on the screen.  Once the square is drawn, the bug continues to walk around the square forever.  See a demo of how it should act [here](./videos/squarebug.mov) for a square of side length 5.
 
 Open `SquareBug.java` and run it the corresponding `SquareBugDemo.java` file.  Notice how the `SquareBug` doesn't move.  Your goal is to fill in the parts of the code that are missing so that the SquareBug draws a square using flowers on the board.  `SquareBug` extends `Bug`, so you have access to all the things that a `Bug` already does, like knowing how to move forward, turning, and dropping a flower as it moves forward.  All you have to do is write `act()` so that the bug moves forward (call `moveForward()` at the appropriate times and turns (call `turnRight()`) at the appropriate times.  
 
