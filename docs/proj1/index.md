@@ -129,15 +129,15 @@ You can deduce these properties inside of the `act()` function in a few ways:
 
 Notice how in each of these videos, the mouse's tail always stays connected to the wall on its right.  The only exception is when the mouse executes a turn, where the tail comes off the wall for two steps, but then immediately connects again once the mouse finishes the turn.
 
-- [maze1](maze1.mov) (7 steps)
+- [maze1](./videos/maze1.mov) (7 steps)
 
-- [maze2](maze2.mov) (7 steps)
+- [maze2](./videos/maze2.mov) (7 steps)
 
-- [maze3](maze3.mov) (34 steps)
+- [maze3](./videos/maze3.mov) (34 steps)
 
-- [maze4](maze4.mov) (80 steps)
+- [maze4](./videos/maze4.mov) (80 steps)
 
-- [maze5](maze5.mov) (425 steps)
+- [maze5](./videos/maze5.mov) (425 steps)
 
 ## How to turn in your code
 
