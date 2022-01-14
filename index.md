@@ -3,4 +3,5 @@
 You'll find information about each project here.
 
 [docs/proj1/index.md](Project 1: Square World)
+[a relative link](./proj1/index.md)
 
