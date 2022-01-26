@@ -44,7 +44,7 @@ The `Actor` class is the superclass for all objects in SquareWorld that live on 
 
 ## Project Part A: SquareBug
 
-Now it's time to write some code! In this part, you will write code for `SquareBug`, which is a custom version of the `Bug` class.  A `SquareBug` draws a square shape using flowers on the screen.  Once the square is drawn, the bug continues to walk around the square forever.  See a demo of how it should act [here](squarebug.mov) for a square of side length 5.
+Now it's time to write some code! In this part, you will write code for `SquareBug`, which is a custom version of the `Bug` class.  A `SquareBug` draws a square shape using flowers on the screen.  Once the square is drawn, the bug continues to walk around the square forever.  See a demo of how it should act [here](https://github.com/CatieWelsh/cs241-s22/blob/main/docs/proj1/videos/squarebug.mov) for a square of side length 5.
 
 Open `SquareBug.java` and run it the corresponding `SquareBugDemo.java` file.  Notice how the `SquareBug` doesn't move.  Your goal is to fill in the parts of the code that are missing so that the SquareBug draws a square using flowers on the board.  `SquareBug` extends `Bug`, so you have access to all the things that a `Bug` already does, like knowing how to move forward, turning, and dropping a flower as it moves forward.  All you have to do is write `act()` so that the bug moves forward (call `moveForward()` at the appropriate times and turns (call `turnRight()`) at the appropriate times.  
 
@@ -129,15 +129,16 @@ You can deduce these properties inside of the `act()` function in a few ways:
 
 Notice how in each of these videos, the mouse's tail always stays connected to the wall on its right.  The only exception is when the mouse executes a turn, where the tail comes off the wall for two steps, but then immediately connects again once the mouse finishes the turn.
 
-- [maze1](maze1.mov) (7 steps)
+- [maze1](https://github.com/CatieWelsh/cs241-s22/blob/main/docs/proj1/videos/maze1.mov) (7 steps)
 
-- [maze2](maze2.mov) (7 steps)
+- [maze2](https://github.com/CatieWelsh/cs241-s22/blob/main/docs/proj1/videos/maze2.mov) (7 steps)
 
-- [maze3](maze3.mov) (34 steps)
+- [maze3](https://github.com/CatieWelsh/cs241-s22/blob/main/docs/proj1/videos/maze3.mov) (34 steps)
 
-- [maze4](maze4.mov) (80 steps)
+- [maze4](https://github.com/CatieWelsh/cs241-s22/blob/main/docs/proj1/videos/maze4.mov) (80 steps)
 
-- [maze5](maze5.mov) (425 steps)
+- [maze5](https://github.com/CatieWelsh/cs241-s22/blob/main/docs/proj1/videos/maze5.mov) (425 steps)
+
 
 ## How to turn in your code
 
