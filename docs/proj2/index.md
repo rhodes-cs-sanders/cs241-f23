@@ -124,5 +124,5 @@ If you do a challenge, save your regular code separately before starting on the 
 You may do any of these:
 
 - Add additional methods to the `RArrayList` class, such as for inserting multiple items in the middle, determining if an item is present or not, etc.
-- Add the ability to have multiple squirrels in the world who coordinate their actions to get all the acorns back to the "home" tree as quickly as possible.  Or maybe each aquirrel has their own "home" tree and they are competing to see who can get the most acorns as quickly as possible.
+- Add the ability to have multiple squirrels in the world who coordinate their actions to get all the acorns back to the "home" tree as quickly as possible.  Or maybe each squirrel has their own "home" tree and they are competing to see who can get the most acorns as quickly as possible.
 
