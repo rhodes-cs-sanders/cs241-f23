@@ -62,7 +62,6 @@ The `SortedList` structure itself maintains two pointers, one to the head of the
 - Remove an item from a SortedList. Given an item, this operation removes item from the SortedList if it is present in the list, and does nothing if item is not present.
 - Test if an item is present in a SortedList or not.
 - Clear the SortedList. This operation removes all the items from the SortedList. 
-- Retrieve the size of the SortedList.
 - Two methods for displaying a SortedList as a string (one internal, one external).
 
 ## Getting Started
@@ -98,9 +97,9 @@ The `SortedList` structure itself maintains two pointers, one to the head of the
 
   - Now go back and fix `add()` if it wasn't working 100% the first time.  Remember, this function should add an item to its correct sorted position within the list.
 
-  - Write `get()` and testing code for that.
+  - Write `get()` and testing code for it.
 
-  - Write `size()` and `clear()` and testing functions for those.  These functions should be very easy to write.
+  - Write `clear()` and testing code for it.  This function should be very easy to write.
 
   - Write `contains()` and testing code.
 
