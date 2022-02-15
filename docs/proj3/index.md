@@ -156,7 +156,7 @@ In part B, you will be:
 ### Implementing the AI player [10 points]
 
 - Open up `NoThanksRunner.java`.  This class will take care of running either a single game of No Thanks, or running lots of games in a row.
-- You can run the main function write out of the box, and it will simulate a game of No Thanks with four players who play randomly.  
+- You can run the main function right out of the box, and it will simulate a game of No Thanks with four players who play randomly.  
 - Try switching the call from `playOneGame` to `playManyGames` and it will play 100,000 games in a row, showing you final scores for each game.  You'll notice that with four random players, each one wins about 25% of the time.
 - Take a look at `Player.java`.  This is a Java interface that every AI player must implement.  It has a single method, with all the information the AI player needs to know.
 - Take a look at the three existing AI players: AlwaysTakePlayer, AlwaysRejectPlayer, and RandomPlayer.  Notice how each one implements a different strategy (although all three strategies aren't very intelligent), returning `true` to take a card (and the chips on the card), or `false` to reject the card.
@@ -179,5 +179,3 @@ Your project will be graded on
 ## Submitting your code
 
 To submit, upload these three files: SortedList.java, SortedListTester.java, and your AI player class.
-
-**It would also be helpful if you emailed me your AI player class** because I will post updates along the way as to which AI players are leading.  You can update your AI player at any time!
