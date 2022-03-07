@@ -18,7 +18,7 @@ You will create a Set of stop words from `stopwords.txt`, and you will them remo
 
 This project is all about using the Map and Set abstract data types.  In particular, you will be implementing your own Map type using a binary search tree, but you will use a built-in Java type for the Set.
 
-Here we describe how to use these are used:
+Here we describe how to use these:
 
 - **BSTMap**: You will be writing this class yourself, but here's how it's intended to be used, which mirrors the way built-in Java Maps are used.
   - **Create** a new map: `BSTMap<KeyType, ValueType> mapVariable = new BSTMap<KeyType, ValueType>();` This creates a new map that associates keys of `KeyType` with values of `ValueType`.  For instance, if we wanted to make a map where we could look up someone's bank account balance (a `double`), given their account number (an `int)`, then we could do: `BSTMap<Integer, Double> accounts = new BSTMap<Integer, Double>();`
