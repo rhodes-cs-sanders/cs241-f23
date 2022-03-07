@@ -1,6 +1,6 @@
 # Project 4: Sentiment Analysis
 
-***Sentiment analysis***, in natural language processing or computational linguistics, is a set of techniques used to extract subjective information from text, usually in the sense of figuring out whether a piece of text is expressing a positive, neutral, or negative opinion about something. In this project, you will write a simple sentiment analysis program to try to figure out what sort of opinion is being expressed in a collection of movie reviews. (More about sentiment analysis: https://en.wikipedia.org/wiki/Sentiment_analysis)
+***Sentiment analysis***, in natural language processing or computational linguistics, is a set of techniques used to extract subjective information from text, usually in the sense of figuring out whether a piece of text is expressing a positive, neutral, or negative opinion about something. In this project, you will write a simple sentiment analysis program to try to figure out what sort of opinion is being expressed in a collection of movie reviews. (More about sentiment analysis: <https://en.wikipedia.org/wiki/Sentiment_analysis>)
 
 The sentiment analysis algorithm for this project is very simple. You are given a collection of movie reviews in text format. You will use a maps (explained below) to keep track of how often certain words appear in the reviews. That is, your map will store an association between words (the keys, as Strings), and the frequencies with which they appear in the movie reviews (the values, as integers).
 
