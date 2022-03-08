@@ -73,7 +73,7 @@ You must implement the following functions, which you should feel free to base o
 
 - `size`: This function returns the number of key-value pairs in the tree.  This function should be implemented recursively.  (Yes, this function could be implemented by adding a `size` field to the class, but I want you to get practice with writing recursive functions.)
 
-- `height`: This function returns the height of the tree (see the BST homework for more information).
+- `height`: This function returns the height of the tree. Remember that the height of a tree is the length of the longest possible path from the root node to the deepest leaf node.  (see BST Homework for more information).
 
 - `preorder/inorder/postorderKeys`: These three functions should return `List`s of the keys in the tree, given in the specified orders.  Each one will be recursive, and will require its own `private` helper function.  Note: These functions should not print anything!  Instead, make an empty ArrayList at the start of each (`public`) function, and as you traverse the tree, append each key as you visit each node.  Hint: You may pass the ArrayList as a variable.
 
