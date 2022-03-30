@@ -8,3 +8,5 @@ You'll find information about each project here.
 
 [Project 3: SortedList and No Thanks](./proj3/index.md)
 
+[Project 4: Sentiment Analysis](./proj4/index.md)
+
