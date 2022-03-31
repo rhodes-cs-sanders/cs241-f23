@@ -1,6 +1,5 @@
-# COMP 241: Project 5
+# Project 5: Autocomplete
 
-## Autocomplete
 
 ![demo](demo.gif)
 
