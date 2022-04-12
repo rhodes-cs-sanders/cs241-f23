@@ -111,6 +111,14 @@ Sample output for [small.txt](small-output.txt), [nyt.txt](nyt-output.txt).
   - If the frequencies are different, return either -1 or +1 depending on which frequency is higher (think about which goes with which).
   - If the frequencies are the same, then we will compare the strings based on alphabetical order, whicih you can do by calling `s1.compareTo(s2)` and returning the result.
 
+** Added Tue, April 12: **
+
+I forgot to explain what to do after you write the Comparator. After you write the Comparator, you must call your mergesort function from earlier.
+Inside getBestSuggestions(), after you’ve added all the strings to a new ArrayList, you should do the following:
+WordByFrequencyComparator comp = new WordByFrequencyComparator();
+Mergesort.mergesort([name of your list variable], comp);
+Then return the list of strings, and you’re done! Your output should match mine now.
+
 ## Part E: Celebrate
 
 At this point, you are done!  You should confirm that your output matches mine exactly on small.txt and nyt.txt.  The only parts that might be different are the results printed from "Autocorrect", but the results from "Autocomplete" and "Best suggestions" should match exactly.
