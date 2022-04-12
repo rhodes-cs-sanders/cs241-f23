@@ -113,8 +113,8 @@ Sample output for [small.txt](small-output.txt), [nyt.txt](nyt-output.txt).
 
 ** Added Tue, April 12: **
 
-I forgot to explain what to do after you write the Comparator. After you write the Comparator, you must call your mergesort function from earlier.
-Inside getBestSuggestions(), after you’ve added all the strings to a new ArrayList, you should do the following:
+I forgot to explain what to do after you write the `Comparator`. After you write the `Comparator`, you must call your mergesort function from earlier.
+Inside `getBestSuggestions()`, after you’ve added all the strings to a new ArrayList, you should do the following:
 ```
 WordByFrequencyComparator comp = new WordByFrequencyComparator();
 Mergesort.mergesort([name of your list variable], comp);
