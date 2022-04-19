@@ -2,7 +2,7 @@
 
 ## Dijkstra's algorithm
 
-💾 **Download starter code**
+[💾 **Download starter code**](proj6-starter.zip)
 
 In this project, we will put all of our pieces from this semester together.  Well, at least some of them.  You will write a program implementing a classic algorithm, picking the best data structures to use in the code.  You will also get experience using some built-in Java data structures we haven't used yet.
 
