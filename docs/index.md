@@ -10,3 +10,7 @@ You'll find information about each project here.
 
 [Project 4: Sentiment Analysis](./proj4/index.md)
 
+[Project 5: Autocomplete](./proj5/index.md)
+
+[Project 6: Dijkstra's Algorithm](./proj6/index.md)
+
