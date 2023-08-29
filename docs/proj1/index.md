@@ -4,8 +4,8 @@ Welcome to SquareWorld! In this project you will brush up on your Java skills to
 
 ## Getting Started
 
-1. Download the starter code [here](proj1-starter.zip).  This zip file will unzip into a `src` folder. 
-2. Make a new Intellij project.  Then copy the contents of this `src` folder exactly into the `src` folder in the new project.
+1. Connect to the starter code on GitHub Classroom [here]([proj1-starter.zip](https://classroom.github.com/a/MBWevYfq)).  You will be prompted to give your github account information.
+2. You should be able to clone this code to your computer or connect your IntelliJ project to GitHub. More information about GitHub is on our canvas page.
 3. There is a lot of code here, but most of it you can ignore.  To verify everything is working correctly, find the `BugDemo.java` file and run it.  You should see a window open.
 4. Press the STEP button to watch the world unfold.  You can press the RUN button to watch it continuously.  You can drag the slider to slow it down or speed it up.
 
@@ -141,8 +141,4 @@ Notice how in each of these videos, the mouse's tail always stays connected to t
 
 ## How to turn in your code
 
-Upload the following files to Canvas:
-
-- `SquareBug.java`
-- `MazeWorld.java`
-- `Mouse.java`
+To turn in your code by pushing it to github classroom.  You should practice "pushing" and updating your code in GitHub classroom.
